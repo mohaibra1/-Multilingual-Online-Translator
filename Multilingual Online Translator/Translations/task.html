@@ -1,0 +1,44 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>To get readable results, you need to clean and format all the data you get from the web. It's a good thing that Python is a rich programming language with powerful text formatting out of the box!</p>
+<p>To make the results extracted from the web page easily readable, let's separate sentences and translations by newlines and put titles in front of different sections of the output.</p>
+<h5 id="objectives">Objectives</h5>
+<p>At this stage, format the output of results in the following fashion:</p>
+<ol>
+<li>Output the line <code class="java">... Translations:</code>; put the full name of the target language instead of <code class="java">...</code> (for example, <code class="java">English Translations</code>).</li>
+<li>Output found translations, one per line. Make sure there are no commas or quotes, just the word (or the phrase). If there are more than 5 translations, leave only 5 of them to keep the results more compact. Or you can print all of them, it does not affect the testing.</li>
+<li>Output the line <code class="java">... Examples</code>; put the full name of the target language instead of <code class="java">...</code> .</li>
+<li>Output found examples of sentences, one sentence per line. Make sure there are no commas or quotes (apart from those that should be inside the sentence). First, output the sentence in the source language, then output its translation in the target language. Repeat this procedure for every found sentence pair. If there are more than 5 sentence pairs, you can leave only 5 of them for convenience. Or you can print all of them, it does not affect the testing.</li>
+</ol>
+<h5 id="example">Example</h5>
+<p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+<pre><code class="language-no-highlight">Type "en" if you want to translate from French into English, or "fr" if you want to translate from English into French:
+&gt; fr
+Type the word you want to translate:
+&gt; hello
+You chose "fr" as a language to translate "hello".
+200 OK
+
+French Translations:
+bonjour
+allô
+ohé
+coucou
+salut
+
+French Examples:
+Well, hello, freedom fighters.
+Et bien, bonjour combattants de la liberté.
+
+Goodbye England and hello the Netherlands...
+Au revoir l'Angleterre et bonjour les Pays-Bas...
+
+Yes, hello. Jackson speaking.
+Oui, allô, Jackson à l'appareil.
+
+Hello, hello, hello, hello.
+Allô, allô, allô, allô.
+
+And began appearing hello kitty games online.
+Et a commencé à apparaître bonjour Kitty jeux en ligne.</code></pre>
+</div>
